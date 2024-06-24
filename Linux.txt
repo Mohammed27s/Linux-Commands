@@ -1,0 +1,86 @@
+---
+
+**Linux Commands and Explanations**
+
+1. **ls** - Lists files and directories in the current directory.
+   - Example: `ls -l`
+     - Shows detailed information about files and directories.
+
+2. **cd** - Changes the current directory.
+   - Example: `cd /home/user`
+     - Moves to the directory `/home/user`.
+
+3. **pwd** - Prints the current directory path.
+   - Example: `pwd`
+     - Displays the full path of the current directory.
+
+4. **mkdir** - Creates a new directory.
+   - Example: `mkdir my_directory`
+     - Makes a new directory named `my_directory`.
+
+5. **rmdir** - Removes an empty directory.
+   - Example: `rmdir my_directory`
+     - Deletes the directory `my_directory`, only if it's empty.
+
+6. **cp** - Copies files or directories.
+   - Example: `cp file1.txt file2.txt`
+     - Copies `file1.txt` to `file2.txt`. Overwrites `file2.txt` if it exists.
+
+7. **mv** - Moves or renames files or directories.
+   - Example: `mv file1.txt new_location/`
+     - Moves `file1.txt` to `new_location/`. Renames files if they are in the same directory.
+
+8. **rm** - Deletes files or directories.
+   - Example: `rm file.txt`
+     - Deletes `file.txt`. This action is irreversible.
+
+9. **touch** - Creates an empty file or updates the timestamp.
+   - Example: `touch new_file.txt`
+     - Creates `new_file.txt` if it doesn't exist. Updates its timestamp if it does.
+
+10. **cat** - Displays file contents.
+    - Example: `cat file.txt`
+      - Shows the content of `file.txt` on the screen.
+
+11. **grep** - Searches for patterns in files.
+    - Example: `grep "pattern" file.txt`
+      - Finds lines in `file.txt` containing "pattern".
+
+12. **chmod** - Changes file permissions.
+    - Example: `chmod 755 file.sh`
+      - Sets read, write, and execute permissions for the owner, and read/execute for group and others on `file.sh`.
+
+13. **chown** - Changes file owner and group.
+    - Example: `chown user:group file.txt`
+      - Changes the owner to `user` and the group to `group` for `file.txt`.
+
+14. **sudo** - Executes a command with administrative privileges.
+    - Example: `sudo apt-get update`
+      - Updates software packages using administrative rights (`sudo`).
+
+15. **apt-get** or **apt** - Manages software packages (Debian-based).
+    - Example: `sudo apt-get install package_name`
+      - Installs `package_name` from the repository using `apt-get`.
+
+16. **yum** - Manages software packages (RPM-based).
+    - Example: `sudo yum install package_name`
+      - Installs `package_name` from the repository using `yum`.
+
+17. **tar** - Archives files and directories.
+    - Example: `tar -czvf archive.tar.gz directory/`
+      - Creates a compressed (`gzip`) archive named `archive.tar.gz` of `directory/`.
+
+18. **find** - Searches for files in a directory hierarchy.
+    - Example: `find . -name "*.txt"`
+      - Looks for `.txt` files starting from the current directory (`.`).
+
+19. **df** - Displays disk space usage.
+    - Example: `df -h`
+      - Shows disk space usage in a human-readable format (`-h` for "human-readable").
+
+20. **history** - Lists recently used commands.
+    - Example: `history`
+      - Displays a list of recent commands typed in the terminal.
+
+---
+
